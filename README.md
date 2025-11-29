@@ -1,5 +1,3 @@
-# Discourse-Image_Importer-by-requests
-
 You would have already seen that changing `https://DISCOURSE_HOSTNAME/t/my-topic-name-slug/the-topic-id/` to `https://DISCOURSE_HOSTNAME/raw/5224/` meets most export needs, but what about a topic with a large number of images?
 
 Well, that export would have `![an-image-caption|widthxheight](upload://data-base62-sha1.EXT)` wherever there is an image present, which is not the image itself.
